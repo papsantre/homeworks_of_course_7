@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "homeworks-of-course-7"
+version = "0.1.0"
+description = ""
+authors = ["dyadyasawa <dyadyasawa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "4.2.2"
+psycopg2-binary = "^2.9.9"
+pillow = "^10.3.0"
+djangorestframework = "^3.15.1"
+black = "^24.4.2"
+django-filter = "^24.2"
+djangorestframework-simplejwt = "^5.3.1"
+ipython = "^8.24.0"
+coverage = "^7.5.3"
+python-dotenv = "^1.0.1"
+drf-yasg = "^1.21.7"
+setuptools = "^70.0.0"
+stripe = "^9.11.0"
+forex-python = "^1.8"
+celery = "^5.4.0"
+redis = "^5.0.6"
+eventlet = "^0.36.1"
+django-celery-beat = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
